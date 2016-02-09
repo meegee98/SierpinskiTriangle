@@ -1,7 +1,8 @@
 public void setup()
 {
 	size(700, 800);
-	//background(255, 255, 255);
+	background(255, 255, 255);
+	//triangle(50, 700, 375, 100, 650, 700);
 
 }
 public void draw()
