@@ -10,16 +10,16 @@ public void draw()
 	//triangle(100, 700, 400, 100, 700, 700);
 
 }
-public void mousePressed()//optional
+/*public void mousePressed()//optional
 {
 	background(255, 255, 255);
 	//sierpinski(mouseX, mouseY, 500);
 	//math.rand
 	sierpinski(50, 700, mouseX);
-}
+}*/
 public void keyPressed ()
 {
-    int myColor= color(225, 194, 240, 1);
+    int myColor= color(225, 255, 255);
     if (key==CODED && keyCode==UP || keyCode==DOWN) 
 	 {
 	 	background(myColor);
