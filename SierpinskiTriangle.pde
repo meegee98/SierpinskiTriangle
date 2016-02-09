@@ -2,14 +2,13 @@ public void setup()
 {
 	size(700, 800);
 	background(255, 255, 255);
+	sierpinski(50, 700, 600);
 	//triangle(50, 700, 375, 100, 650, 700);
-
 }
 public void draw()
 {
 	//mousePressed();
 	//triangle(100, 700, 400, 100, 700, 700);
-
 }
 /*public void mousePressed()//optional
 {
