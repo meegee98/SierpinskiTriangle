@@ -20,12 +20,12 @@ public void mousePressed()//optional
 public void keyPressed ()
 {
     int myColor= color(225, 194, 240, 1);
-    if (key==CODED && keyCode==UP) 
+    if (key==CODED && keyCode==UP || keyCode==DOWN) 
 	 {
 	 	background(myColor);
 	 	sierpinski(50, 700, 600);
 	 }
-    if(key==CODED && keyCode==DOWN)
+    if(key==CODED && keyCode==RIGHT)
 	    {
 	    	background(myColor);
 	    	sierpinski2(50, 700, 600);
